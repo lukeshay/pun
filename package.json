@@ -1,0 +1,18 @@
+{
+    "name": "@lshay/pun",
+    "version": "0.0.2",
+    "description": "A CLI proxy tool",
+    "author": "Your Name",
+    "license": "MIT",
+    "scripts": {
+        "preinstall": "go-npm install"
+    },
+    "goBinary": {
+        "name": "pun",
+        "path": "./bin",
+        "url": "https://github.com/lukeshay/pun/releases/download/v{{version}}/your-binary-name_{{version}}_{{platform}}_{{arch}}.tar.gz"
+    },
+    "dependencies": {
+        "go-npm-next": "^1.0.6"
+    }
+}
